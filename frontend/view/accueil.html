@@ -1,0 +1,97 @@
+  <body>
+    <div id="container1">
+      <section id="SECcreateTable">
+        <h1> OPERATION SUR LA TABLE </h1>
+        <article>
+          <input id="INPcreateTable" type="text">
+        </article>
+        <article>
+          <button id="BUTcreateTable">Créer la table</button>
+        </article>
+        <article id="ARTreponse"></article>
+
+        <article>
+          <label for="choiceBddDel">Sélectionner la table a supprimer/modifier!</label>
+          <select name="choiceBddDel" id="choiceBddDel" class="choiceBdd">
+          </select>
+        </article>
+        <article>
+          <button id="BUTdeleteTable">SUPPRIMER</button>
+        </article>
+        <article id="ARTtblDel"></article>
+        <article>
+          <input id="INPupdTable" placeholder="nouveau nom" type="text" />
+        </article>
+        <article>
+          <button id="BUTupdTable">MODIFIER NOM</button>
+        </article>
+        <article id="ARTtblUpd"></article>
+      </section>
+
+      <section id="SECcreateCol">
+        <h1>CREATION DE COLONNE</h1>
+        <article>
+          <label for="choiceBdd">Sélectionner votre table</label>
+          <select name="choiceBdd" id="choiceBddCol" class="choiceBdd">
+          </select>
+        </article>
+
+        <article>
+          <label for="choiceCol">Sélectionner le type de colonne</label>
+          <select name="choiceCol" id ="choiceCol">
+            <option value="TINYINT">TINYINT</option>
+            <option value="SMALLINT">SMALLINT</option>
+            <option value="INT">INT</option>
+            <option value="VARCHAR">VARCHAR</option>
+            <option value="TEXT">TEXT</option>
+            <option value="DATETIME">DATETIME</option>
+          </select>
+        </article>
+        <article>
+          <label for="INPlong">Rentrer la longueur du champ</label><input id="INPlong" type="text" />
+        </article>
+
+        <article>
+          <label for="INPcreateCol">Rentrer le nom de votre colonne</label><input id="INPcreateCol" type="text">
+        </article>
+
+        <article>
+          <button id="BUTcreateCol">Créer la colonne</button>
+        </article>
+        <article id="ARTreponseCol"></article>
+      </section>
+    </div>
+
+    <section id="SECCcreateElem">
+      <h1>CREATION D'ENTREE / MODIFICATION DE COLONNE</h1>
+      <article>
+        <label for="choiceBdd">Sélectionner votre table</label>
+        <select name="choiceBdd" id="choiceBddEnt" class="choiceBdd">
+        </select>
+      </article>
+
+      <article id="ARTtblCol">
+        <button id="BUTrecupElem">Voir Colonne(s)</button>
+      </article>
+
+      <article id="ARTtblColRep"></article>
+
+      <article id="ARTelemValid"></article>
+    </section>
+
+    <section id="SECdelElem">
+      <h1>MODIFICATION D'ENTREE</h1>
+      <article>
+        <label for="choiceBddElmDel">Sélectionner votre table</label>
+        <select name="choiceBddElmDel" id="choiceBddElmDel" class="choiceBdd">
+        </select>
+      </article>
+
+      <article id="ARTtlbElem">
+        <button id="BUTrecupElemDel">Voir entrée(s)</button>
+      </article>
+
+      <article id="ARTtblElemRep"></article>
+
+      <article id="ARTdelValid"></article>
+    </section>

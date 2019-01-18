@@ -1,0 +1,70 @@
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  border: solid 4px;
+  padding: 10px;
+}
+
+section article {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+#container1 {
+  display: flex;
+  justify-content: space-around;
+}
+
+#SECcreateTable {
+  background-image: radial-gradient(circle at center, white, rgba(46, 154, 254, 0.5));
+  border-color: #2E9AFE;
+}
+
+#SECcreateCol {
+  background-image: radial-gradient(circle at top right, white, rgba(254, 154, 46, 0.51));
+  border-color: #FE9A2E;
+}
+
+#SECCcreateElem {
+  background-image: radial-gradient(circle at center, white, rgba(95, 180, 4, 0.53));
+  border-color: #5FB404;
+  display: flex;
+  justify-content: center;
+}
+
+#SECdelElem {
+  background-image: radial-gradient(circle at top left, white, rgba(46, 154, 254, 0.47));
+  border-color: #2E9AFE;
+}
+
+#ARTtblColRep p span:first-child {
+  width: 100px;
+  display: inline-block;
+}
+
+#ARTtblColRep p span:nth-child(4) {
+  width:  150px;
+  display: inline-block;
+  margin-left: 10px;
+}
+
+#ARTtblElemRep span, #ARTtblElemRep input {
+  width: 10%;
+  display: inline-block;
+}
+
+#ARTtblElemRep span {
+  margin-right: 14px;
+}
+
+#ARTtblElemRep input {
+  margin-right: 10px;
+}
+
+#DIVdel {
+  display: flex;
+  flex-direction: column;
+}
